@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Spinner
+        android:id="@+id/chon_truong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:prompt="@string/chon_truong" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chon_truong"
+        android:layout_centerHorizontal="true" >
+
+        <EditText
+            android:id="@+id/ten_sbd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/ten_sbd"
+            android:inputType="text" >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/tim	"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/magnify"
+            android:contentDescription="@string/des" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:fadingEdge="horizontal|vertical" />
+
+</RelativeLayout>

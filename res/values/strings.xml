@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Điểm Thi Đại Học 2012</string>
+    <string name="menu_settings">Settings</string>
+    <string name="chon_truong">Chọn Trường</string>
+    <string name="ten_sbd">Họ Tên hoặc SBD</string>
+    <string name="tim">Tìm</string>
+    <string name="ket_qua">Kết Quả  >>></string>
+    <string name="sbd">SBD</string>
+    <string name="ho_ten">Họ Tên</string>
+    <string name="khoi">Khối</string>
+    <string name="m1">M1</string>
+    <string name="m2">M2</string>
+    <string name="m3">M3</string>
+    <string name="tong">Tổng</string>
+    <string name="khu_vuc">KV</string>
+    <string name="uu_tien">+Ưu Tiên</string>
+    <string name="des">null</string>
+
+</resources>
